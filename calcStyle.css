@@ -1,0 +1,27 @@
+.table1{
+    border: 4;
+    font-size: 30;
+    background-color: rgb(192, 147, 234);
+height: 50vh;
+width: 50vw;
+
+}
+input[type=button]{
+    width: 80px;
+    height: 60px;
+    padding:0px ;
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(40, 41, 30);
+    background: rgb(241, 199, 237);
+}
+
+input[type=text]{
+    width: 700px;
+    height: 100px;
+    padding:0px ;
+    margin: 5px;
+    font-size: 30px;
+    background: rgb(241, 199, 237);
+    
+}
