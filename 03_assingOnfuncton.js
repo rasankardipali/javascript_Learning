@@ -48,3 +48,14 @@ var stroperatoin1=function(){
 
 }
 stroperatoin1();
+
+//even odd number
+var show=function(word){
+     console.log(word.length);
+     var ans=word.length %2 ==0?"even":"odd"
+     console.log(ans);
+}
+show("javactript");
+show("developer");
+show("google");
+

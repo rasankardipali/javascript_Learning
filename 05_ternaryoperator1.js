@@ -33,29 +33,14 @@ console.log(`even odd no is:${oddeven3}`);
 
 
 //Q3
-var evenoddlength=function(word){
-    
-  var num1=word.length
-  console.log(num1);
-   if(num1===true)
-   {
-     console.log("odd")
-   }
-   else
-   {
-     console.log("even")
-   }
+//even odd number
+var show=function(word){
+  console.log(word.length);
+  var ans=word.length %2 ==0?"even":"odd"
+  console.log(ans);
 }
-  evenoddlength("JavaCriptt");
-  evenoddlength("Google");
-  
-  evenoddlength("developerr");
-  
+show("javactript");
+show("developer");
+show("google");
 
-//*var ans5=evenoddlength("developer");
- // console.log("**************** odd/even********************");
-//console.log(`even odd no is:${ans5}`);
 
-//var ans6 =evenoddlength("Google");
-  //console.log("**************** odd/even********************");
-//console.log(`even odd no is:${ans6}`);
