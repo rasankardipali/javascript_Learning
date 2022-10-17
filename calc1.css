@@ -1,0 +1,13 @@
+input[type="button"] {
+    background-color:rgba(41, 4, 35, 0.938);
+    color: rgb(205, 203, 203);
+    border: solid black 2px;
+    width:100%
+}
+ 
+/* Set input textarea */
+input[type="text"] {
+    background-color:white;
+    border: solid black 2px;
+    width:100%
+}

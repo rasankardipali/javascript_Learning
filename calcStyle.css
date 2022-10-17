@@ -4,6 +4,7 @@
     background-color: rgb(192, 147, 234);
 height: 50vh;
 width: 50vw;
+border: solid black 2px;
 
 }
 input[type=button]{
@@ -14,6 +15,8 @@ input[type=button]{
     font-size: 30px;
     color: rgb(40, 41, 30);
     background: rgb(241, 199, 237);
+    border: solid rgb(2, 56, 118) 4px;
+    
 }
 
 input[type=text]{
@@ -23,5 +26,5 @@ input[type=text]{
     margin: 5px;
     font-size: 30px;
     background: rgb(241, 199, 237);
-    
+    border: solid black 2px;
 }
