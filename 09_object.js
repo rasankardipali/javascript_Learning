@@ -3,10 +3,14 @@ let sachin={
     
 eat:function(){
     console.log(" i am  vigitirian");
+         },
+         details:function(){
+            let show=(`detail are${this.fullname}`);
          }
 
  }
 
+ sachin.details();
 sachin.eat();
 console.log(sachin);
 console.log(sachin.fullname);
@@ -18,3 +22,5 @@ sachin.proffetion="angular developer";
 console.log(sachin);
 //sachin.fullname="asdafsghj";
 //delete sachin.age;
+
+//console.log(object.keys());
