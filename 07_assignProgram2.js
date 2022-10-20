@@ -1,3 +1,4 @@
+//reveres string
 function reverseString(word){
     var totalChar=word.length;
     var reverse="";

@@ -1,6 +1,6 @@
 
 //W.P. print count the number of ovels in the string?
-var str1="Good Morning It Champ  ";
+var str1="Good Morning It Champ ";
 var str=str1.toLowerCase();
 console.log(str1);
 var count=0;
@@ -59,13 +59,14 @@ function sumofsqure(){
 sumofsqure();
 console.log("********************************************************");
 //even position charactor without space
-function evenPositionChars(word){
-    var totallen=word.length;
+function evenPositionChars(word1){
+    var totallen=word1.length;
     for (let index = 0; index <=totallen; index++) {
-        if(index%2==0 && index!= " ")
+        var char1=word1.charAt(index);
+        if(index %2 == 0 && char1!=" ")
         {
-            var char=word.charAt(index);
-            console.log(char);
+            
+            console.log(char1);
         }
     }
 }
@@ -73,13 +74,13 @@ evenPositionChars("Hard Work always pay back");
 console.log("********************************************************");
 evenPositionChars("Soon i will be Angulae IT champ");
 console.log("********************************************************");
-//
+
 
 //odd position charactor without space
 function evenPositionChars(word){
     var totallen=word.length;
     for (let index = 0; index <=totallen; index++) {
-        if(index%2!=0 && index!= " ")
+        if(index%2!=0 && index!="  ")
            {
             var char=word.charAt(index);
             console.log(char);
