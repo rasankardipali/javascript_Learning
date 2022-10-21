@@ -37,5 +37,7 @@ console.table(teacher);
 console.table(teacher.certficates);
 console.log(typeof(teacher));
 console.table(Object.keys(teacher));
+var show1="fname"in teacher;
 
+console.log(show1);
 
