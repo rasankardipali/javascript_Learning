@@ -1,0 +1,25 @@
+const fruits_seasonal=["Banana","Orange","Apple","Mango","Water Melo"]
+console.log("***********display fist & last element*********");
+console.log(`Arrays first element=${fruits_seasonal.slice(0,1)}`);
+console.log(`Arrays last element=${fruits_seasonal.slice(4)}`);
+console.log("***********insert elelement at first*********");
+fruits_seasonal.unshift("papaya");
+console.log(fruits_seasonal);
+console.log("***********Remove  MONGO elelement*********");
+console.log(`Arrays remove mango element=${fruits_seasonal.splice(4,1)}`);
+console.log(fruits_seasonal);
+console.log("***********insert PINEAPPLE elelement at last********");
+fruits_seasonal.splice(5 ,0 ,"Pineapple");
+console.log(fruits_seasonal);
+console.log("***********insert Dragon fruit elelement at last********");
+fruits_seasonal.splice(4 ,0 ,"Dragon fruit ");
+console.log(fruits_seasonal);
+console.log("***********Replace Orange elelement with Kivi********");
+fruits_seasonal.splice(2 ,0 ,"Kivi ");
+console.log(fruits_seasonal);
+console.log("***********log  elelement starting from 1 to 4 ********");
+fruits_seasonal.slice(1 ,4);
+console.log(fruits_seasonal.slice(1 ,4));
+console.log("***********log  elelement  last 3  using length ********");
+let al=fruits_seasonal.slice(fruits_seasonal.length-3);
+console.log(al);
